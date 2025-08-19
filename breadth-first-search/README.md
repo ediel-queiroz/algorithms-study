@@ -10,13 +10,14 @@ As a user, I'd like to know the nearest city from a certain coordinate. Whenever
 
 There is a map of cities where every coordinate has a distance of 1 from its neighbors. Each coordinate is a pair of line and column numbers. For example, (3,5), where 3 is the line and 5 the column.
 
-| São Joaquim da Barra | 1 | 1 | 1 | 1 | 1 |
-|:--------------------:|:-:|:-:|:-:|:-:|:-:|
-| 1                    | 1 | 1 | 1 | 1 | 1 |
-| 1                    | 1 | Ribeirão Preto | 1 | 1 | 1 |
-| 1                    | 1 | 1 | 1 | 1 | 1 |
-| 1                    | 1 | 1 | Serrana | 1 | 1 |
-| 1                    | 1 | 1 | 1 | 1 | 1 |
+| coordinates |          0           | 1 | 2 | 3 | 4 | 5 |
+|:-----------:|:--------------------:|:-:|:-:|:-:|:-:|:-:|
+|      0      | São Joaquim da Barra | 1 | 1 | 1 | 1 | 1 |
+|      1      | 1                    | 1 | 1 | 1 | 1 | 1 |
+|      2      | 1                    | 1 | Ribeirão Preto | 1 | 1 | 1 |
+|      3      | 1                    | 1 | 1 | 1 | 1 | 1 |
+|      4      | 1                    | 1 | 1 | Serrana | 1 | 1 |
+|      5      | 1                    | 1 | 1 | 1 | 1 | 1 |
 
 
 #### When
